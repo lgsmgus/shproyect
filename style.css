@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+body {
+    background-color: darkcyan;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/ini.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    }
+
+    .menu {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+    }
+.menu .logo {
+    font-weight: bolder;
+    font-size: 25px;
+    color: chartreuse;
+    }
+.menu .navbar ul {
+    list-style: none;
+    }
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    }
+    .menu .navbar ul li a {
+        font-size: 18px;
+        padding: 20px;
+        color: chartreuse;
+        display: block;
+    }
+.menu .navbar ul li a:hover {
+    color: white;
+} 
+#menu {
+    display: none;
+    }
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+.header-txt {
+    text-align: center;
+    width: 700px;
+}
+.header-txt h1 {
+    color: chartreuse;
+    font-size: 35px;
+}
+.header-txt p {
+    margin-top: 15px;
+    font-size: 25px;
+    color: rgb(236, 240, 233);
+}
+.logosh img {
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin-bottom: 15px;
+}
+.btn-1 {
+    display: inline-block;
+    background-color: aquamarine;
+    margin-top: 35px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    color: black;
+}
+.btn-1:hover {
+    background-color: aliceblue;
+}
+.bg-sec1 {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/track.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 45px 0px;
+}
+.bg-txt1 {
+    padding: 150px 0px;
+    text-align: center;
+    color: aqua;
+}
+.services-container {
+    padding: 32px 0px;
+    text-align: center;
+    color: rgb(207, 209, 207);
+}
+.services-container h2 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: rgb(10, 10, 10);
+}
+.txt-1 {
+    font-size: 22px;
+    padding: 0px 200px;
+}
+.group-services {
+    display: flex;
+    justify-content: space-between;
+}
+.service {
+    padding: 35px 25px;
+}
+.service img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+.service h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.service p {
+    font-size: 18px;
+}
+.clientes {
+    text-align: center;
+    padding: 50px 0px;
+    color: aliceblue;
+}
+.clientes-txt {
+    margin-bottom: 50px;
+}
+.clientes-txt h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: black;
+}
+.clientes-txt p {
+    font-size: 22px;
+}
+.bg-sec {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/infra_1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 45px 0px;
+}
+.bg-txt {
+    padding: 150px 0px;
+    text-align: center;
+    color: aqua;
+}
+.sitios h4 {
+    text-align: center;
+    padding: 6px 0px;
+    color: aliceblue;
+}
+.sitios ul {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(236, 240, 233);
+}   
+.sitios ul a {
+    font-size: 10;
+    color: bisque;
+}
+.verde {
+    display: flex;
+    justify-content: center;
+    }
+.verde img {
+   width: 50%;
+    margin: 5px 0px;
+   }
+   .fin-1 {
+    text-align: center;
+    padding: 11px 0px;
+    color: aliceblue;
+   }
